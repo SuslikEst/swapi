@@ -1,7 +1,16 @@
 .lds-double-ring{
-  width:100%;height:100%
+  width:100%;
+  height:100%;
 }
-
+.lds-css{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+}
 @keyframes lds-double-ring {
   0% {
     -webkit-transform: rotate(0);
